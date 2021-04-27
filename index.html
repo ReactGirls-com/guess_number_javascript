@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="game.js"></script>
+  </head>
+  <body>
+    <div class="alert"><p class="message">Guess!</p></div>
+
+    <header>
+      <h1 id="headline">Can you guess the secret number?</h1>
+    </header>
+
+    <div class="main">
+      <div class="mainSection">
+        <h2>How to play</h2>
+
+        <ul>
+          <li>Guess the secret number between 0 and 100.</li>
+          <li>If you guess incorrect number, you will get a hint.</li>
+          <li>If you guess correct number, you win!</li>
+          <li><button type="button" class="startAgainButton">Start again</button></li>
+        </ul>
+      </div>
+
+      <div class="mainSection">
+        <h2>Secret Number</h2>
+        <div class="secretNumber">
+          <p class="symbol number rightAligned lowGuess">0</p>
+          <p class="symbol arrow">&lt;</p>
+          <div class="star">
+            <img src="./star.svg" />
+            <p class="symbol winNumber">?</p>
+          </div>
+          <p class="symbol arrow">&gt;</p>
+          <p class="symbol number highGuess">100</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="guessPanel">
+      <form class="guessForm">
+        <h2>Number between 0 and 100:</h2>
+        <input name="guess" type="number" min="0" max="100" placeholder="55" class="userInput" />
+        <button type="button" class="submitButton">guess</button>
+      </form>
+    </div>
+  </body>
+</html>

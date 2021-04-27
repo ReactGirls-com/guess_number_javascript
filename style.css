@@ -1,0 +1,168 @@
+* {
+  font-family: "Tomorrow", sans-serif;
+  margin: 0;
+  color: #1b1464;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b1464;
+}
+
+#headline {
+  font-size: 64px;
+  line-height: 83px;
+  font-weight: 800;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  margin-top: 32px;
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 160%;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 130%;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.symbol {
+  font-size: 48px;
+  line-height: 130%;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+
+.symbol.number {
+  width: 100px;
+}
+
+.symbol.number.rightAligned {
+  text-align: right;
+}
+
+.alert {
+  height: 82px;
+  width: 100%;
+  background-color: #ec028c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert p {
+  color: #fff;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 82px;
+}
+
+.mainSection {
+  width: 624px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 96px;
+  height: 416px;
+  background-color: #ffffff;
+}
+
+.secretNumber {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 538px;
+  margin-top: 32px;
+}
+
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.star p {
+  position: absolute;
+}
+
+.guessPanel {
+  width: 100%;
+  height: 153px;
+  position: fixed;
+  bottom: 0px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guessForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1204px;
+  height: 82px;
+}
+
+input {
+  width: 200px;
+  border: 0;
+  background-color: #1b1464;
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 130%;
+  height: 100%;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+input::placeholder {
+  color: #9c9c9c;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  width: 365px;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 0.05em;
+  background-color: #00ffc4;
+  border: 0;
+  outline: none;
+  height: 100%;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.winNumber {
+  background: #00FFC4;
+}
