@@ -1,3 +1,3 @@
-# guess_number_javascript
+Project guess number (ReactGirls Academy)
 
-Kód z lekce JavaScriptu z ReactGirls Akademie
+Lesson JavaScript
